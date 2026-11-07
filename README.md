@@ -24,6 +24,8 @@ This application is a browser-based Sudoku (Number Place) game that works comple
 * **16x16 Sudoku**: Easy, Normal, Hard
 * **Create Puzzle Mode**
 
+Note: The 9x9 (Easy through Extreme) and 16x16 difficulties perform unique-solution verification only, which means puzzles requiring guess-and-check (trial and error) may occasionally be generated. If you want to check whether these puzzles can be solved using purely logical methods, please use the puzzle validation feature in Create Puzzle Mode.
+
 **Functions**
 **Gameplay**
 * Undo, Erase, Memo, Hint, Display unplaced numbers within 3x3 blocks, Dark mode
@@ -144,6 +146,9 @@ A tool for creating your original puzzles.
 ・9x9ナンプレ:  難易度-簡単, 普通, 難しい, エクストリーム, Ultimate
 ・16x16ナンプレ: 難易度-簡単, 普通, 難しい
 ・盤面クリエイトモード
+
+Note: 9x9簡単～エクストリーム及び16x16の各難易度は、一意解判定のみおこなっているので、仮置きが必要な盤面が生成される可能性があります。それらの論理解法の有無を確認したい場合は、盤面クリエイトモードのパズル判定をご使用ください。
+
 **機能**
 **ゲームプレイ**
 ・元に戻す,消去,メモ,ヒント,3x3ブロック内未配置数字表示
