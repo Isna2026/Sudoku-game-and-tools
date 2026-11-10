@@ -10,7 +10,8 @@
 This application is a browser-based Sudoku (Number Place) game that works completely offline.
 * Play 9x9 and 16x16 number place puzzles.
 * Create custom puzzles using the Create Puzzle mode.
-* **Offline generation of puzzles with 19 or more clues via auto-generation.**
+* Offline generation of puzzles with 19 or more clues via auto-generation.
+
 
 ![Screenshot](./Screenshot/Screenshot-1.png)
 
@@ -117,7 +118,7 @@ A tool for creating your original puzzles.
 * **Hint**: Select a cell and click to fill in the correct answer for that cell.
 
 ## License
-MIT License
+[MIT License](LICENSE)
 
 ## Disclaimer
 * This application is provided "As-Is" without any warranties of any kind, including warranties of merchantability or fitness for a particular purpose.
@@ -146,10 +147,12 @@ MIT License
 ・9x9ナンプレ:  難易度-簡単, 普通, 難しい, エクストリーム, Ultimate
 ・16x16ナンプレ: 難易度-簡単, 普通, 難しい
 ・盤面クリエイトモード
-   Note: 9x9簡単～エクストリーム及び16x16の各難易度は、一意解判定のみおこなっているので、仮置きが必要な盤面が生成される可能性があります。それらの論理解法の有無を確認したい場合は、盤面クリエイトモードのパズル判定をご使用ください。
+
+Note: 9x9簡単～エクストリーム及び16x16の各難易度は、一意解判定のみおこなっているので、仮置きが必要な盤面が生成される可能性があります。それらの論理解法の有無を確認したい場合は、盤面クリエイトモードのパズル判定をご使用ください。
+
 **機能**
 **ゲームプレイ**
-・元に戻す,消去,メモ,ヒント,3x3ブロック内未配置数字表示, 候補メモ自動入力, ダークモード
+・元に戻す,消去,メモ,ヒント,3x3ブロック内未配置数字表示
 ・盤面テキストコピー/貼り付け
 ・ゲームデータJSON保存/読み込み(セーブデータでもUndo対応)
 ・Ultimate modeのみ論理解法手順表示, 高難度盤面連続生成

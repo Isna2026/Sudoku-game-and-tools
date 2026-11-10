@@ -382,7 +382,7 @@
             grid-template-rows: repeat(3, 1fr);
             width: 100%;
             height: 100%;
-            font-size: clamp(0.8rem, 1.2vw, 0.95rem);
+            font-size: clamp(0.60rem, 1.2vw, 0.85rem);
             color: var(--slate-500);
             padding: 1px;
             pointer-events: none;
@@ -4689,6 +4689,7 @@
                 this.solution = solution;
                 this.userBoard = puzzle.map(row => [...row]);
                 this.initializeNotesForNewGame(this.puzzle);
+
                 this.history = [];
                 this.selectedCell = null;
                 this.ultimateRating = rating;
